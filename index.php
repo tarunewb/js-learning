@@ -12,17 +12,17 @@
         header = document.createElement('header');
         header.setAttribute('class', 'header');
 
-        header.style.cssText = "background:red;width:100%;display:inline-block"
+        header.style.cssText = "background:#003676;width:100%;display:inline-block;color:white"
 
         //  create a header
         logo = document.createElement('div');
         logo.setAttribute('class', 'logo');
         logo.style.cssText = "width:50%;display:inline-block;float:left";
         image = document.createElement('img');
-        image.setAttribute('src', 'download.png');
+        image.setAttribute('src', 'download.jpg');
         image.setAttribute('alt', 'images')
-        image.setAttribute('height', '50px')
-        image.setAttribute('width', '50px')
+        image.setAttribute('height', '70px')
+        image.setAttribute('width', '70px')
         menu = document.createElement('div');
         menu.setAttribute('class', 'menuSection');
         menu.style.width = "50%";
