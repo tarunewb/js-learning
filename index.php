@@ -37,13 +37,26 @@
 
         menuList = document.createElement('ul');
                menuList.setAttribute('class', "allMenu");
+               menuList.style.cssText="display: flex ;float:right; list-style: none;";
              menu.appendChild(menuList);
           
         List = document.createElement('li');
-               menuList.appendChild(List);
+               menuList.appendChild(List).style.padding="20px";
                 
          t = document.createTextNode('home');
                List.appendChild(t);
+          
+        List1 = document.createElement('li');
+               menuList.appendChild(List1).style.padding="20px";;
+                
+         t1 = document.createTextNode('about');
+               List1.appendChild(t1);
+          
+        List2 = document.createElement('li');
+               menuList.appendChild(List2).style.padding="20px";;
+                
+         t2= document.createTextNode('contact us');
+               List2.appendChild(t2);
 
         // create a content area
         let mainSection = document.createElement('div');
@@ -73,7 +86,7 @@
            button.appendChild(btnValue)
         // document.getElementById('btn').style.cssText="width:50%;background:red"
         
-     
+        // window.open('https://google.com/')
        
       
 
